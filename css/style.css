@@ -1,0 +1,49 @@
+.photo {
+     background: none repeat scroll 0 0 #FCFEFF;
+     border: 10px solid #FFFFFF;
+     box-shadow: 0 1px 3px #ABABAB;
+     display: block;
+     float: left;
+     margin: -29px 61px 0 -31px;
+}
+
+.info-list{
+	 font-size: 17px;
+	 font-style: italic;
+     float: right;
+	 list-style-type: none;
+}
+
+.main {padding:10px;}
+.section-title {  font-size: 20px; font-style: italic; padding-bottom: 5px;}
+.section-body { }
+.seperator {border-bottom: 1px solid #ddd; margin: 20px 0 30px 0;}
+.seperator-line {border-bottom: 0px solid #eee; margin: 2px 0 2px 0;}
+.inner-seperator {margin:10px 0 20px 0; border-bottom: 1px dashed #ddd;}
+.section-body ul {margin-left: 17px;}
+.subject-name { font-size: 16px; font-weight: bold; color: #0099DD; margin-bottom: 5px;}
+a.dotted {border-bottom: 1px black dotted; display: block;}
+a.dotted:hover {text-decoration: none;}
+.margin-top-10 {  margin-top: 10px; }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 900px) { 
+  .platform {width:980px; }
+  .section-title { width: 180px; }
+  .section-body { width: 690px; }  
+  .item-desc { max-width:550px; font-size:14px; font-style: italic;}
+  .item-period {border: 1px solid #ddd; font-size: 12px; padding:2px 5px 2px 5px;}
+} 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {  
+
+} 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  .name-text {margin-top: 15px;}
+  .main {padding:20px; padding-bottom:25px;}
+  .platform {margin: 10px auto;}
+  .header {padding:10px; padding-bottom:0px;}
+  .seperator {margin: 5px 0 10px 0;}
+  .inner-seperator {margin:5px 0 10px 0; }
+}
